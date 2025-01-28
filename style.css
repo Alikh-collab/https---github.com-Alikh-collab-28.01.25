@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    border: 5px solid black;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.mainDiv button {
+    padding:  10px;
+    margin: 5px;
+    background-color: green;
+    color: white;
+    margin-top: 250px;
+    right: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.mainDiv button:hover {
+    background-color: darkgreen;
+}
+
+.mainDiv input {
+    padding: 10px;
+    margin-right: -27%;
+    border: none;   
+    background-color: black;
+    color: yellow;
+}
